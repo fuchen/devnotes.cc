@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/post.astro
 title: "Unleash the Speed Demon Within Your PostgreSQL Database with Materialized Views"
-pubDate: 2024-03-31
+pubDate: 2024-03-30
 description: "Unleash the Speed Demon Within Your PostgreSQL Database with Materialized Views"
 author: "fuchen"
 excerpt: Ever get tired of those complex queries slowing down your PostgreSQL database? Enter materialized views, your secret weapon for blazing-fast data retrieval! In this blog post, we'll break down materialized views, explore when to use them, and unveil the magic behind keeping them up-to-date.
