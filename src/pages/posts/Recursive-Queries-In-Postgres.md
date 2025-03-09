@@ -56,6 +56,8 @@ FROM employees e
 JOIN dept_path dp ON e.department_id = dp.department_id;
 ```
 
+![Recursive Query](/img/recursive-query.png)
+
 This query defines a CTE named `dept_path`. The anchor member retrieves departments with no parent (i.e., top-level departments). The recursive member then joins the `departments` table with `dept_path`, progressively adding child departments to the path until the termination condition (`parent_id IS NULL`) is met in the recursive join. Finally, we join the `employees` table with `dept_path` to retrieve employee details along with their department hierarchy.
 
 **Bonus Tip: Embrace the Power of Termination Conditions**
